@@ -1,7 +1,11 @@
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap");
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: "Quicksand", sans-serif;
+  line-height: 1.5;
 }
 
 :root {
@@ -41,6 +45,10 @@
   text-decoration: none;
 }
 
+.nav-links a:hover {
+  color: var(--dark-pink);
+}
+
 /* HEADER STYLES */
 
 .header {
@@ -48,12 +56,13 @@
   justify-content: center;
   align-items: center;
   background-color: var(--light-pink);
-  padding: 9rem 1rem;
-  gap: 2rem;
+  min-height: 500px;
+  padding: 1rem;
+  gap: 10rem;
 }
 
 .left-header {
-  max-width: 400px;
+  max-width: 500px;
   height: auto;
 }
 
@@ -61,6 +70,10 @@
   color: var(--light-text);
   font-size: 2.25rem;
   margin-bottom: 1rem;
+}
+
+.highlight {
+  color: var(--dark-pink);
 }
 
 .subtext {
@@ -83,13 +96,13 @@
   background-color: var(--dark-pink);
 }
 
-.placeholder {
-  width: 500px;
+.right-header {
+  max-width: 400px;
+}
+
+.header-img {
+  width: 100%;
   height: auto;
-  color: white;
-  background-color: gray;
-  padding: 5rem;
-  text-align: center;
 }
 
 /* FLOWERS SECTION STYLES */
@@ -109,12 +122,13 @@
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
-  gap: 1rem;
+  gap: 1.5rem;
 }
 
 .flower-box {
   display: flex;
   flex-direction: column;
+  min-height: 400px;
   max-width: 300px;
   gap: 1rem;
 }
