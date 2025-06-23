@@ -192,13 +192,17 @@
 }
 
 .view-more-btn {
-  color: var(--light-text);
   background-color: var(--medium-pink);
   font-size: 1.1rem;
   border: none;
   border-radius: 0.5rem;
   padding: 0.75rem;
   cursor: pointer;
+}
+
+.view-more-btn a {
+  color: var(--light-text);
+  text-decoration: none;
 }
 
 .view-more-btn:hover {
@@ -216,4 +220,14 @@
   font-size: 1.1rem;
   padding: 2rem;
   text-align: center;
+}
+
+.footer-text a {
+  color: var(--light-text);
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.footer-text a:hover {
+  color: var(--dark-pink);
 }
