@@ -88,7 +88,7 @@ html {
 .subtext {
   color: var(--light-text);
   font-size: 1.1rem;
-  margin-bottom: 1rem;
+  margin-bottom: 2rem;
 }
 
 .view-tulips-btn {
@@ -171,7 +171,9 @@ html {
 .quote-text {
   color: white;
   font-size: 2rem;
-  padding: 9rem;
+  text-align: center;
+  max-width: 800px;
+  padding: 2rem;
 }
 
 /* CONTACT/CTA SECTION STYLES */
