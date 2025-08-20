@@ -49,7 +49,7 @@ html {
 
 .nav-links a {
   color: var(--light-text);
-  font-size: 1.2rem;
+  font-size: 1.1rem;
   text-decoration: none;
 }
 
@@ -63,6 +63,7 @@ html {
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-wrap: wrap;
   background-color: var(--light-pink);
   min-height: 500px;
   padding: 1rem;
@@ -92,6 +93,10 @@ html {
 }
 
 .view-tulips-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 150px;
   color: var(--light-text);
   background-color: var(--medium-pink);
   font-size: 1.1rem;
@@ -188,9 +193,10 @@ html {
 .cta-container {
   display: flex;
   align-items: center;
+  flex-wrap: wrap;
   border: 2px solid var(--medium-pink);
   border-radius: 1rem;
-  gap: 5rem;
+  gap: 3rem;
   padding: 5rem;
 }
 
@@ -204,12 +210,14 @@ html {
 }
 
 .view-more-btn {
+  display: flex;
   color: var(--light-text);
   background-color: var(--medium-pink);
   font-size: 1.1rem;
   border: none;
   border-radius: 0.5rem;
   padding: 0.75rem;
+  text-align: center;
   text-decoration: none;
   cursor: pointer;
 }
